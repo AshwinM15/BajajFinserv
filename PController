@@ -1,0 +1,20 @@
+package com.demoapi.rest;
+
+public class PController {
+	import org.springframework.boot.SpringApplication; import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+	import com.example.demo.Pservicez
+
+	import com.example.demo.PModel;
+
+	8RestController
+
+	public class PController (
+
+	Pservice pservice;
+
+	@PostMapping ("/data") private PModel saveData (@RequestBody String[] data) {
+
+	return pservice.save (data);
+}
+}
