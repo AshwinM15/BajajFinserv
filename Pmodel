@@ -1,0 +1,22 @@
+package com.demoapi.rest;
+
+import org.springframework.boot.SpringApplication;
+
+import org.springframework.boot.autoconfigure. SpringBootApplication;
+
+@Data
+
+public class PModel (
+
+public String status;
+
+public String userId="ashwin more 15101997";
+
+public String email="ashwinmore001@gmail.com";
+
+public String rollNumber="PD1179";
+
+public String[] numbers;
+
+public String[] alphabets;
+}
