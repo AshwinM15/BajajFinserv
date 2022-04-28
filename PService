@@ -1,0 +1,42 @@
+package com.demoapi.rest;
+
+import org.springframework.boot.SpringApplication; Import org.springframework.boot.autoconfigure. SpringBootApplication;
+
+import com.example.demo.Pservice;
+
+import com.example.demo.PModel;
+
+@Service
+
+public class PService (
+
+Pmodel pmodel;
+
+private PModel save (String[] data) {
+
+
+int k=0, j=0;
+
+for (int i=0;i<data.length; i++){
+
+String temp=data[i];
+
+int t=(int) data[i].charAt(0); 
+if(t>-48 && t<=57){
+
+  pmodel.numbers[k]=data[i];
+  k++;
+  
+}
+
+else{
+
+    pmodel.alphabets [j]=data[i];
+
+    j++;
+}
+}
+
+return pmodel;
+}
+}
